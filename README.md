@@ -13,3 +13,12 @@ BONUS 1:
 Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
 BONUS 2:
 Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+
+## Ragionamento: 
+
+1. Avvio un conteggio da 0 a 100
+    a. Devo controllare se:
+        - è un numero multiplo di 3 ---> Stampare la scritta Fizz
+        - è un numero multiplo di 5 ---> Stampare la scritta Buzz
+        - è un numero multiplo di 3 e di 5 ---> Stampare la scritta FizzBuzz
+        - Se non né multiplo di 3 né di 5 ---> Stampare il numero

@@ -1,6 +1,6 @@
 /*RESET*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,10 +12,52 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*HEADER*/
 
 /*MAIN*/
+main{
+    background-color: #083B4B;
+    padding: 20px 0;
+}
 
-/*FOOTER*/
 
-/*RESPONSIVE*/
+#title-document{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+li{
+    width: 80px;
+    height: 80px;
+    background-color: #1289B2;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+.fizz{
+    background-color: #08D6A0;
+    color: white;
+}
+
+.buzz{
+    background-color:#FFD166;
+    color: white;
+}
+
+.fizzbuzz{
+    background-color: #F0466F;
+    color: white;
+}
